@@ -7,7 +7,7 @@ import { Header } from '@/components/header'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
-import { Vote, CheckCircle, X, Circle } from 'lucide-react'
+import { Vote, CircleCheck as CheckCircle, X, Circle } from 'lucide-react'
 import { toast } from 'react-hot-toast'
 
 export default function VotingPage() {

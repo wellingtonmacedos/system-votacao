@@ -14,22 +14,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { toast } from "react-hot-toast"
-import { 
-  UserCheck,
-  FileText,
-  Vote,
-  Clock,
-  CheckCircle,
-  XCircle,
-  Minus,
-  Info,
-  MessageSquare,
-  Plus,
-  Edit,
-  Trash2,
-  BookOpen,
-  Calendar
-} from "lucide-react"
+import { UserCheck, FileText, Vote, Clock, CircleCheck as CheckCircle, Circle as XCircle, Minus, Info, MessageSquare, Plus, CreditCard as Edit, Trash2, BookOpen, Calendar } from "lucide-react"
 
 export function CouncilorDashboard() {
   const { data: session } = useSession() || {}

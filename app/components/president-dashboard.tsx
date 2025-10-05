@@ -6,16 +6,7 @@ import { Header } from "@/components/header"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { 
-  Calendar,
-  FileText,
-  Play,
-  Square,
-  Users,
-  Vote,
-  Clock,
-  CheckCircle
-} from "lucide-react"
+import { Calendar, FileText, Play, Square, Users, Vote, Clock, CircleCheck as CheckCircle } from "lucide-react"
 
 export function PresidentDashboard() {
   const [activeTab, setActiveTab] = useState('overview')
